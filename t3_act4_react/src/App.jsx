@@ -6,7 +6,10 @@ function App() {
   const [tasks, setTasks] = useState([
     { id: 1, title: 'Terminar reporte de Base de Datos', isCompleted: false },
     { id: 2, title: 'Diseñar el flyer de Botcitos Hots FC', isCompleted: true },
-    { id: 3, title: 'Práctica de Redes en Ubuntu Server', isCompleted: false }
+    { id: 3, title: 'Práctica de Redes en Ubuntu Server', isCompleted: false },
+    { id: 4, title: 'Terminar el sprint de Gestión', isCompleted: false },
+    { id: 5, title: 'Diseñar el logo de Sistemas', isCompleted: true },
+    { id: 6, title: 'Práctica de PLF', isCompleted: false }
   ]);
 
   const toggleTask = (id) => {

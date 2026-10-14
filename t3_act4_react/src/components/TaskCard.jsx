@@ -10,7 +10,7 @@ function TaskCard({ title, isCompleted, onToggle }) {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        backgroundColor: isCompleted ? '#e8f5e9' : '#fff'
+        backgroundColor: isCompleted ? '#004205ff' : '#790000ff'
         }}>
         <h3 style={{ textDecoration: isCompleted ? 'line-through' : 'none', margin: 0 }}>
         {title}
